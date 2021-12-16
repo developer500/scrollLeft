@@ -1,0 +1,33 @@
+              	; --------------------------------------
+              	; zasm: assemble "defs.asm"
+              	; opts: --reqcolon
+              	; date: 2020-05-10 19:09:53
+              	; --------------------------------------
+
+
+              	
+400C:         	#define d_file $400C
+4034:         	#define frames $4034
+0020:         	#define n_columns 32
+0018:         	#define n_rows 24
+0040:         	#define n_uniquechars 64
+0010:         	#define n_blockchars 16
+***ERROR*** code size = 0
+
+
+; +++ segments +++
+
+
+; +++ global symbols +++
+
+_reqcolon_    = $0001 =      1   :1 (unused)
+d_file        = $400C =  16396   defs.asm:2 (unused)
+frames        = $4034 =  16436   defs.asm:3 (unused)
+n_blockchars  = $0010 =     16   defs.asm:7 (unused)
+n_columns     = $0020 =     32   defs.asm:4 (unused)
+n_rows        = $0018 =     24   defs.asm:5 (unused)
+n_uniquechars = $0040 =     64   defs.asm:6 (unused)
+
+
+total time: 0.0007 sec.
+1 error
